@@ -32,7 +32,7 @@ for i=0,lengthList.size()-1{
 synList = new List()
 	randomNum = new Random()
 	rN = randomNum.uniform(0,totalL)
-	randomNum.ACG(246)
+	randomNum.Random123(246)
 	
 
 for i=1,numClust{
@@ -86,7 +86,7 @@ for i=1,numClust{
 	  	 			
 	  	 				randomNum2 = new Random()
 						rN2 = randomNum.uniform(0,totalL1)
-						randomNum2.ACG(246)
+						randomNum2.Random123(246)
 						
 						newInd = cumLList1.indwhere(">",rN2)
 

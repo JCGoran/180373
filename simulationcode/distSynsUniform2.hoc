@@ -32,7 +32,7 @@ synList = new List()
 randomNum = new Random()
 randomNum.uniform(0,totalL)
 randomVec = new Vector(totalSyns)
-randomNum.ACG(seed)
+randomNum.Random123(seed)
 randomVec.setrand(randomNum)
 randomVec.sort()
 
