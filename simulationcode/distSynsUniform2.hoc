@@ -53,6 +53,7 @@ distList = new Vector(0)
 access L5PC.soma
 distance()
 r2 = new Random()
+r2.Random123()
 forsec $o2 {
        for i=1,toAdd.x[ind]{
        	   where = r2.uniform(0,1)
